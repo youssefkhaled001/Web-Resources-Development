@@ -1,3 +1,7 @@
 /Web Resources/
-/Development Factory/
+!/Web Resources/.gitkeep
+
+/Development Factory/*
+!/Development Factory/.gitkeep
+
 /node_modules/

@@ -1,0 +1,20 @@
+{
+  "name": "webresourcesdevelopment",
+  "author": "Youssef Khaled Abdallah Abdelkader",
+  "version": "1.0.0",
+  "description": "This package provides TypeScript support for Microsoft Dynamics 365 Web Resources, allowing developers to write Web Resources in TypeScript with full type definitions and IntelliSense support. It then compiles the .ts files into .js files automatically for deployment.",
+  "main": "index.js",
+  "scripts": {
+    "once": "tsc",
+    "auto": "tsc --watch",
+    "only": "node compile.js",
+    "test": "tsh"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/xrm": "^9.0.83"
+  },
+  "dependencies": {
+    "typescript": "^3.2.2"
+  }
+}

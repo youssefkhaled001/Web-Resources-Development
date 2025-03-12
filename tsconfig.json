@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "lib": ["es5", "dom"],
+      "outDir": "Web Resources",
+      "strict": false,
+      "removeComments": true,
+      "noEmitOnError": true,
+      "typeRoots": ["./node_modules/@types"]
+    },
+    "include": ["Development Factory/**/*"]
+}
